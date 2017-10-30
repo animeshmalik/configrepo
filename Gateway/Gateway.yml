@@ -1,0 +1,20 @@
+zuul:
+  routes:
+    myapp:
+      path: /myapp/**
+      serviceId: MyApp
+    MyApp2:
+      path: /myapp2/**
+      serviceId: MyApp2
+MyApp:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+MyApp2:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
