@@ -3,9 +3,11 @@ zuul:
     myapp:
       path: /myapp/**
       serviceId: MyApp
+      stripPrefix: false
     MyApp2:
       path: /myapp2/**
       serviceId: MyApp2
+      stripPrefix: false
 MyApp:
   ribbon:
     ConnectTimeout: 1000
