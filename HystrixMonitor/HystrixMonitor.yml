@@ -31,6 +31,6 @@ eureka:
 
 ---
 spring:
-  profiles: cloud
+  profiles: default
 management:
   port: -1
