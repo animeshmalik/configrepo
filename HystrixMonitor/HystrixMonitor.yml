@@ -36,3 +36,6 @@ spring:
   profiles: default
 management:
   port: -1
+turbine:
+  appConfig: MyApp,MyApp2
+  cluster-name-expression: "'default'"
