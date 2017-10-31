@@ -22,7 +22,9 @@ logging:
     # org.springframework.integration: DEBUG
 
 eureka:
-  #instance:
+  instance:  
+    metadata-map:
+      management.port: ${management.port:8081}
   #  leaseRenewalIntervalInSeconds: 10
   #  non-secure-port: ${PORT:8989}
   client:
