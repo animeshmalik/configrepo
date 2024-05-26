@@ -1,3 +1,3 @@
 student:
-  welcomemsg: 'welcome !'
+  welcomemsg: 'welcome to SpringBoot3!'
   welcomeencryptedmsg: '{cipher}AQCWcR/jYIFRiEJzD5jpLdKqAB/96SLgZOfYC40SUeW4qCdNOeZbi146TDVWflx8Dk3idFPngD69ogvTJPxwoPrBnFSorpUX0eeHwDt2I0qAn018xVKBdbnuijOPIrfQenBtOmixPcLRAf74SRdxe4ldAz/4FCYfYoBIXEQNyYIk4duSu5FP/bM1fNHH4FHRsi9MfWNKrwegbdmntElgNhymSLdaXzZWMZrw+Yf/enVkhJhyVma/GKBhQB005ZaYwNg9iDZsXN+LndfCowYatQkmfrZeBSF6cCVO9dccwJXU8GHPQOenATYCzCunqd5fnU1HPhMP1KHujkIafrIKRbaS9zgUfOGGn9l2H5FJ6rMTHNBk/lD5sQoWlkVlsqh1JNI='
