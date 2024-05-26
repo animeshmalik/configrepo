@@ -3,6 +3,13 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 management:
+  health:
+    livenessstate:
+      enabled: true
+    readinessstate:
+      enabled: true
+    probes:
+      enabled: true
   endpoints:
     web:
       exposure:
@@ -10,9 +17,6 @@ management:
   endpoint:
     health:
       enabled: true
-      group:
-        exploratory:
-          include: livenessState,readinessState
-          show-details: always
+
     info:
       enabled: true
