@@ -10,5 +10,9 @@ management:
   endpoint:
     health:
       enabled: true
+      group:
+        exploratory:
+          include: livenessState,readinessState
+          show-details: always
     info:
       enabled: true
