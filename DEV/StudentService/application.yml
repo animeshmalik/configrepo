@@ -1,6 +1,6 @@
 test:
   cert:
-    folder: secret(_)ssl
+    folder: secret(_)jks
     filename: animesh.jks
     password: changeit
 student:
